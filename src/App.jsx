@@ -1,13 +1,15 @@
-import Button from "./components/common/Button.jsx";
-import Heading from "./components/common/Heading.jsx";
+import Navbar from "./components/shared/Navbar.jsx";
+import Footer from "./components/shared/Footer.jsx";
+import Hero from "./components/Hero.jsx";
+import ProblemSolution from "./components/ProblemSolution.jsx";
 
 const App = () => {
     return (
-        <main>
-            <h2 className="text-4xl text-center">Hello World</h2>
-            <Button>Primary Button</Button>
-            <Button className={"bg-white text-black"}>Secondary Button</Button>
-            <Heading gradient={"Problem"}>Problem & </Heading>
+        <main className="font-nunito-sans bg-[url(../src/assets/hero-bg.svg)] min-h-screen bg-no-repeat bg-top">
+            <Navbar />
+            <Hero />
+            <ProblemSolution />
+            <Footer />
         </main>
     );
 };

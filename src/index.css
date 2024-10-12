@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-image-color {
+    border-image-source: linear-gradient(180deg, #00D2FF 0%, #059DBE 100%);
+    border-image-slice: 1;
+}
