@@ -3,11 +3,17 @@ import Logo from "./Logo.jsx";
 import Button from "../common/Button.jsx";
 import { navItems } from "../../lib/data/index.js";
 import MobileNav from "./MobileNav.jsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenusOpen] = useState(false)
     const toggleMenu = () => setIsMenusOpen((prevState) => !prevState);
+
+    useEffect(() => {
+        const bodyClass = document.body.classList;
+        isMenuOpen ? bodyClass.add("no-scroll") : bodyClass.remove("no-scroll");
+        return () => bodyClass.remove("no-scroll");
+    }, [isMenuOpen]);
     return (
         <nav className="py-5 ">
             <Container >
