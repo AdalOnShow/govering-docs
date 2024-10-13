@@ -64,3 +64,70 @@ export const ProblemSolutionData = [
         des1: "Ensure all your documents meet the latest regulatory standards.",
     },
 ]
+
+export const reviews = [
+    {
+        name: "David",
+        image: "../src/assets/david.png",
+        type: "Happy Client",
+        review: {
+            stars: 4,
+            title: "Highly Recommend!",
+            details: "The service was user-friendly and met all my expectations."
+        },
+    },
+    {
+        name: "John Smith",
+        image: "../src/assets/john-smith.png",
+        type: "Happy Client",
+        review: {
+            stars: 5,
+            title: "It Was A Amazing Experience!",
+            details: "The AI features saved us countless hours and ensured our compliance was spot on."
+        },
+    },
+    {
+        name: "Ronald Richards",
+        image: "../src/assets/ronald-richards.png",
+        type: "Happy Client",
+        review: {
+            stars: 4,
+            title: "Outstanding Support!\n",
+            details: "The customer support team was quick to resolve my issues."
+        },
+    },
+
+]
+
+export const partners = [
+    {
+        src: "../src/assets/partners-1.png",
+        alt: "Partner 1",
+    },
+
+    {
+        src: "../src/assets/partners-2.png",
+        alt: "Partner 2",
+    },
+
+    {
+        src: "../src/assets/partners-3.png",
+        alt: "Partner 3",
+    },
+
+    {
+        src: "../src/assets/partners-4.png",
+        alt: "Partner 4",
+    },
+
+    {
+        src: "../src/assets/partners-5.png",
+        alt: "Partner 5",
+    },
+
+    {
+        src: "../src/assets/partners-6.png",
+        alt: "Partner 6",
+    },
+
+]

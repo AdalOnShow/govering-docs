@@ -2,6 +2,8 @@ import Navbar from "./components/shared/Navbar.jsx";
 import Footer from "./components/shared/Footer.jsx";
 import Hero from "./components/Hero.jsx";
 import ProblemSolution from "./components/ProblemSolution.jsx";
+import Reviews from "./components/Reviews.jsx";
+import Partners from "./components/Partners.jsx";
 
 const App = () => {
     return (
@@ -9,6 +11,8 @@ const App = () => {
             <Navbar />
             <Hero />
             <ProblemSolution />
+            <Reviews />
+            <Partners />
             <Footer />
         </main>
     );
