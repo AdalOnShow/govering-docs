@@ -7,8 +7,8 @@ import FaqCard from "./FaqCard.jsx";
 const Faq = () => {
     const [active, setActive] = useState(1)
     return (
-        <section className="mt-[50px] sm:mt-20 lg:mt-[100px] xl:mt-[150px]">
-            <Container className="max-w-[982px]">
+        <section className="mt-[50px] sm:mt-20 lg:mt-[100px] xl:mt-[150px] relative">
+            <Container className="max-w-[982px] relative z-50">
                 <Heading gradient="Asked Questions" className="text-center">Frequently </Heading>
 
                 <div className="pt-10 space-y-5">
@@ -18,6 +18,7 @@ const Faq = () => {
 
                 </div>
             </Container>
+            <img src={"../src/assets/faq-bg-line.svg"} alt="Bg img" className="absolute z-0 -top-[115px] -left-[540px] 2xl:-left-[23.8%]" />
         </section>
     );
 };

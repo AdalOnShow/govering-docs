@@ -5,6 +5,7 @@ import ProblemSolution from "./components/ProblemSolution.jsx";
 import Reviews from "./components/Reviews.jsx";
 import Partners from "./components/Partners.jsx";
 import Faq from "./components/Faq.jsx";
+import Note from "./components/Note.jsx";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Reviews />
             <Partners />
             <Faq />
+            <Note />
             <Footer />
         </main>
     );
