@@ -11,7 +11,7 @@ const ProblemSolution = () => {
                     <Heading gradient={"Solution"}> Problem & </Heading>
                     <div className="flex justify-center items-center gap-3.5 sm:gap-[15px]">
                         <button className="bg-white size-9 sm:size-10 rounded-full text-primary-0 flex justify-center items-center shadow-arrow-btn">
-                            <ArrowIcon />
+                            <ArrowIcon className="rotate-180" />
                         </button>
                         <button className="bg-gradient-primary size-9 sm:size-10 rounded-full text-white flex justify-center items-center shadow-arrow-btn">
                             <ArrowIcon />

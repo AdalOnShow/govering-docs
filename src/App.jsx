@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx";
 import ProblemSolution from "./components/ProblemSolution.jsx";
 import Reviews from "./components/Reviews.jsx";
 import Partners from "./components/Partners.jsx";
+import Faq from "./components/Faq.jsx";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <ProblemSolution />
             <Reviews />
             <Partners />
+            <Faq />
             <Footer />
         </main>
     );
